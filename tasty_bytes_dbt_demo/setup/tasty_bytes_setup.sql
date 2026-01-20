@@ -1,4 +1,4 @@
-USE ROLE accountadmin;
+USE ROLE emergepradmins;
 
 CREATE OR REPLACE WAREHOUSE tasty_bytes_dbt_wh
     WAREHOUSE_SIZE = 'small'
